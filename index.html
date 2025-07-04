@@ -253,6 +253,18 @@
             text-align: justify;
         }
         
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+            /* Remove justify alignment for mobile */
+            .humanity-box p,
+            .action-section p,
+            .action-section ul,
+            .affected-streets p,
+            .footer p {
+                text-align: left !important;
+            }
+        }
+        
         @media (max-width: 600px) {
             .container {
                 padding: 20px;
